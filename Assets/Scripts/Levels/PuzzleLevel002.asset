@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0381912b8924b4990fc389d9ba9037, type: 3}
+  m_Name: PuzzleLevel002
+  m_EditorClassIdentifier: 
+  requirementToFinishLevel:
+  - elementData: {fileID: 11400000, guid: 4ebeec05285dd48498e2c6c3bbbda282, type: 2}
+    count: 6
+    missingElementsCount: 6
+  - elementData: {fileID: 11400000, guid: 6651c7bd86590b742b05fbb25fbf1123, type: 2}
+    count: 15
+    missingElementsCount: 14
+  timeLimit: 300
+  puzzleLevelElements:
+  - elementData: {fileID: 11400000, guid: 4ebeec05285dd48498e2c6c3bbbda282, type: 2}
+    count: 18
+    missingElementsCount: 0
+  - elementData: {fileID: 11400000, guid: 220eddedb36a45e41b0dcb1feacf956a, type: 2}
+    count: 21
+    missingElementsCount: 0
+  - elementData: {fileID: 11400000, guid: 4a954042c1e98854fa9bde0b664d9583, type: 2}
+    count: 33
+    missingElementsCount: 0
+  - elementData: {fileID: 11400000, guid: 6651c7bd86590b742b05fbb25fbf1123, type: 2}
+    count: 27
+    missingElementsCount: 0
+  remainingTime: 295
+  isCompleted: 0
+  isFailed: 0
